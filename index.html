@@ -2,46 +2,81 @@
 <html>
 <head>
     <title>My Portfolio</title>
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <h2>My Portfolio</h2>
+<!-- Navbar -->
+<div class="navbar">
+    <h2>Roshan kambale</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </div>
+</div>
 
-    <!-- Hero Section -->
-    <div class="hero">
-        <div class="hero-content">
-            <img src="profile.jpg" alt="profile" width="120">
-            
-            <div>
-                <h1>Hello, I'm Your Name 👋</h1>
-                <p>Mechanical Engineer | Web Developer</p>
-                <button>Contact Me</button>
-            </div>
+<!-- Hero Section -->
+<div class="hero">
+    <div class="hero-content">
+        <img src="profile.jpg" alt="profile">
+
+        <div>
+            <h1>Hello, I'm Roshan kambale 👋</h1>
+            <p>Mechanical Engineer → Web Developer</p>
+
+            <a href="resume.pdf" target="_blank">
+                <button>Download Resume</button>
+            </a>
         </div>
     </div>
+</div>
 
-    <!-- About -->
-    <div class="section">
-        <h2>About Me</h2>
-        <p>I am transitioning from Mechanical Engineering to IT and learning Web Development.</p>
+<!-- About -->
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a Mechanical Engineering graduate transitioning into IT.
+            I build responsive websites using HTML, CSS, and JavaScript.
+        </p>
     </div>
+</div>
 
-    <!-- Skills -->
-    <div class="section">
-        <h2>Skills</h2>
-        <p>HTML, CSS, JavaScript</p>
+<!-- Skills -->
+<div class="section" id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <p>HTML | CSS | JavaScript | GitHub</p>
     </div>
+</div>
 
-    <!-- Projects -->
-    <div class="section">
-        <h2>Projects</h2>
-        <p>Portfolio Website, To-Do App</p>
+<!-- Projects -->
+<div class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        <p>
+            • Portfolio Website <br>
+            • To-Do App <br>
+            • Weather App
+        </p>
     </div>
+</div>
+
+<!-- Contact -->
+<div class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+         <p>Email: <a href="mailto:roshankambale955@email.com">roshankambale955@email.com</a></p>
+    </div>
+</div>
 
 </body>
 </html>
